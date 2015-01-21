@@ -1,0 +1,3 @@
+suite('angular-test', function() {
+
+});

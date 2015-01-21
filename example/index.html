@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="example-app">
+<head>
+  <meta charset="utf-8" />
+  <title>angular-screen example</title>
+  <script src="../bower_components/angular/angular.js"></script>
+  <script src="../dist/angular-screen.js"></script>
+  <script src="app.js"></script>
+</head>
+<body>
+<div ng-controller="Controller1">
+  <h2>Controller 1</h2>
+  <h3 ng-if="screen.tiny">Tiny</h3>
+  <h3 ng-if="screen.medium">Medium</h3>
+  <h3 ng-if="screen.big">Big</h3>
+</div>
+<div ng-controller="Controller2">
+  <h2>Controller 2</h2>
+  <h3 ng-if="screen.tiny || screen.medium">Tiny or Medium</h3>
+  <h3 ng-if="screen.tiny || screen.big">Big or Tiny</h3>
+</div>
+</body>
+</html>

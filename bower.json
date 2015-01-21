@@ -1,0 +1,28 @@
+{
+  "name": "angular-screen",
+  "version": "0.0.1",
+  "homepage": "https://github.com/firstandthird/angular-screen",
+  "copyright": "First+Third",
+  "description": "Angular Provider that exposes vars based on media queries. Useful to compile code based on screen sizes",
+  "keywords": [
+    "angular"
+  ],
+  "main": "dist/angular-screen.js",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "~1.*"
+  },
+  "devDependencies": {
+    "assert": "*",
+    "blanket": "*"
+  },
+  "ignore": [
+    "test",
+    "example",
+    "grunt",
+    "lib",
+    "Gruntfile.js",
+    "package.json",
+    "grunt"
+  ]
+}

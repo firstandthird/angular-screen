@@ -1,0 +1,23 @@
+{
+  "name": "angular-screen",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Angular Provider that exposes vars based on media queries. Useful to compile code based on screen sizes",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firstandthird/angular-screen.git"
+  },
+  "scripts": {
+    "jscs": "jscs -c node_modules/ft-jscs/jscs.json index.js"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/firstandthird/angular-screen/issues"
+  },
+  "homepage": "https://github.com/firstandthird/angular-screen",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-set": "0.0.2",
+    "grunt-set-angular-lib": "0.1.0"
+  }
+}
